@@ -1,0 +1,13 @@
+﻿print("Yes")
+a=100
+aa =13.14
+str ="Ski"
+isDie = false
+
+person ={
+name="wangyuchen",age=100,age2=101.13
+eat = function(arg,a,b)
+print(a+b)
+print("我想你了")
+end
+}

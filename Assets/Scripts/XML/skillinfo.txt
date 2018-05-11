@@ -1,0 +1,17 @@
+﻿<skills>
+<skill>
+  <id>2</id>
+  <name lang="cn">天下无双</name>
+  <damge>123</damge>
+  </skill>
+  <skill>
+    <id>3</id>
+    <name lang="cn">据对领域</name>
+    <damge>90</damge>
+  </skill>
+  <skill>
+    <id>4</id>
+    <name lang="en">MsesAF</name>
+    <damge>13</damge>
+  </skill>
+</skills>
