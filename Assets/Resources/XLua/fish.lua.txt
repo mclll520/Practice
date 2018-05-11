@@ -1,3 +1,9 @@
 ﻿--1.1
 local UnityEngine = CS.UnityEngine
 xlua.hotfix(CS.Treasour,'CreatePrize',nil)
+
+--1.2
+xlua.hotfix(CS.Gun,'Attact',function(self)
+
+
+end)

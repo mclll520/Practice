@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using XLua;
 
 /// <summary>
 /// 枪
 /// </summary>
 
+[Hotfix]
 public class Gun : MonoBehaviour
 {
 
@@ -206,7 +208,7 @@ public class Gun : MonoBehaviour
     }
 
     //攻击方法
-
+    [LuaCallCSharp]
     private void Attack()
     {
 
