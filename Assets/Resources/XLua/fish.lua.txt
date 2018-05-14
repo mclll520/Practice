@@ -3,7 +3,22 @@ local UnityEngine = CS.UnityEngine
 xlua.hotfix(CS.Treasour,'CreatePrize',nil)
 
 --1.2
+xlua.private_accessible(CS.Gun)
 xlua.hotfix(CS.Gun,'Attact',function(self)
+     if UnityEngine.Input.GetMouseButtonDown(0) then
+	 self.bullectAudio.clip = self.bullectAudios[self.gunLevel - 1]
+	 self.bullectAudio.play(self)
 
+	 if self.Butterfly then
+ 	 UnityEngine.GameObject.Instantiate(self.Buiiect[self.hunLevel -1],self.attackPos.position,self.attack.rotation*UnityEngine.Quaternion.Euler(0,0,20))
+	 UnityEngine.GameObject.Instantiate(self.Buiiect[self.hunLevel -1],self.attackPos.position,self.attack.rotation*UnityEngine.Quaternion.Euler(0,0,-20))
+	 end
 
+	 UnityEngine.GameObject.Instantiate(self.Bullects[self.gunLevel-1],self.attackPos.position,self.attackPos.rotation)
+	 
+   if not self.canShootForFree then
+      self:GoldChange(-1-(self.gunLevel-1)*2)
+   end
+   self.attackCD =0
+   self.attack =false
 end)

@@ -302,15 +302,6 @@
     <Reference Include="ShaderForge">
       <HintPath>Assets/Plugins/ShaderForge/Editor/ShaderForge.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Cecil">
-      <HintPath>Assets/XLua/Src/Editor/Unity.Cecil.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Cecil.Mdb">
-      <HintPath>Assets/XLua/Src/Editor/Unity.Cecil.Mdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Cecil.Pdb">
-      <HintPath>Assets/XLua/Src/Editor/Unity.Cecil.Pdb.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/Administrator.PC-201709211725/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -1089,27 +1080,6 @@
     <None Include="Assets\Scripts\ShaderForge入门\HelloShader.shader" />
     <None Include="Assets\Scripts\XML\skillinfo.txt" />
     <None Include="Assets\StreamingAssets\lua007.lua.txt" />
-    <None Include="Assets\XLua\CHANGELOG.txt" />
-    <None Include="Assets\XLua\Gen\Resources\hotfix_id_map.lua.txt" />
-    <None Include="Assets\XLua\Gen\link.xml" />
-    <None Include="Assets\XLua\Resources\perf\memory.lua.txt" />
-    <None Include="Assets\XLua\Resources\perf\profiler.lua.txt" />
-    <None Include="Assets\XLua\Resources\tdr\tdr.lua.txt" />
-    <None Include="Assets\XLua\Resources\xlua\util.lua.txt" />
-    <None Include="Assets\XLua\Src\Editor\LinkXmlGen\LinkXmlGen.tpl.txt" />
-    <None Include="Assets\XLua\Src\Editor\Template\LuaClassWrap.tpl.txt" />
-    <None Include="Assets\XLua\Src\Editor\Template\LuaClassWrapGCM.tpl.txt" />
-    <None Include="Assets\XLua\Src\Editor\Template\LuaDelegateBridge.tpl.txt" />
-    <None Include="Assets\XLua\Src\Editor\Template\LuaDelegateWrap.tpl.txt" />
-    <None Include="Assets\XLua\Src\Editor\Template\LuaEnumWrap.tpl.txt" />
-    <None Include="Assets\XLua\Src\Editor\Template\LuaEnumWrapGCM.tpl.txt" />
-    <None Include="Assets\XLua\Src\Editor\Template\LuaInterfaceBridge.tpl.txt" />
-    <None Include="Assets\XLua\Src\Editor\Template\LuaRegister.tpl.txt" />
-    <None Include="Assets\XLua\Src\Editor\Template\LuaRegisterGCM.tpl.txt" />
-    <None Include="Assets\XLua\Src\Editor\Template\LuaWrapPusher.tpl.txt" />
-    <None Include="Assets\XLua\Src\Editor\Template\PackUnpack.tpl.txt" />
-    <None Include="Assets\XLua\Src\Editor\Template\TemplateCommon.lua.txt" />
-    <None Include="Assets\XLua\Tutorial\LoadLuaScript\ByFile\Resources\byfile.lua.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/FishingTalent/Fish.unity
+- path: "Assets/\u6D4B\u8BD5.unity"
   isLoaded: 1
   isActive: 1
